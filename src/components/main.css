@@ -1,0 +1,18 @@
+.main{
+    
+    width: 100vw;
+    background-image: url(images/main1.jpg);
+    background-position-y:-250px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    height: 150vh;
+    height: 116vh;
+
+}
+.overlay{
+    width: 100vw;
+
+    background-color: #92a2ab64;
+}

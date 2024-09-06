@@ -1,0 +1,111 @@
+.main-2{
+    width: 100vw;
+    height: 140vh;
+    padding: 100px 60px;
+}
+.box{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-box{
+    width: 50%;
+    object-fit: cover;
+}
+.left-box img{
+    width: 100%;
+    height: 90%;
+}
+.right-box{
+    width: 50%;
+    max-height: 100%;
+    padding: 160px 40px;
+}
+.right-box-txt{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 20px;
+}
+.right-box-txt h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+}
+.right-box-txt p{
+    font-family: "Mukta Mahee", sans-serif;
+font-size: 18px;
+font-weight: 200;
+line-height: 32px;
+margin-top: 20px;
+}
+.main-2-icon{
+    margin-left: 30px;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(80, 75, 75);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.circle a{
+    text-decoration: none;
+    font-size: 25px;
+    color:#5D9A94;
+}
+.video-txt{
+    width: 230px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.video-txt a{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Mukta Mahee", sans-serif;
+    letter-spacing: 1.8px;
+    color: #5D9A94;
+    text-decoration: none;
+    font-weight: 700;
+
+
+}
+@media (max-width:600px) {
+    .main-2{
+        padding:  10px 0;
+        min-height:200vh;
+    }
+    .left-box,.right-box{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    
+    }
+    .left-box img{
+        padding: 0 ;
+    }
+    .right-box{
+        padding: 0;
+    }
+    .right-box p{
+        margin-top: 0;
+        text-align: left;
+    }
+    .main-2-icon{
+        margin:0;
+    }
+    
+}

@@ -1,0 +1,21 @@
+.scroll{
+    width: 100%;
+    height: auto;
+    
+}
+.scroll-content{
+    width: 100%;
+    text-align: center;
+    line-height: 11px;
+}
+.scroll-icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.scroll-icon a i{
+    font-size: 36px;
+}
+.scroll-icon a span{
+    font-size: 14px;
+    text-transform: uppercase;
+}
