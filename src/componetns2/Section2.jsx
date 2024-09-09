@@ -35,6 +35,9 @@ export default function Section2() {
             <Bottomcards />
           </div>
         </div>
+        <div className="gallery">
+
+        </div>
       </div>
     </div>
   );

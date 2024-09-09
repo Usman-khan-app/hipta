@@ -1,12 +1,5 @@
 
-.gallery{
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
-    position: absolute;
-    top: 20%;
-    z-index: 333;
-}
+
 
 
 
@@ -32,6 +25,7 @@
     clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 0% 100%);
 
     padding: 100px 10px 100px 10px;
+    
 }
 
 .section2-top-box{
@@ -157,6 +151,14 @@ color: #798189;
 .bcard-content h1:hover{
     color: #65C0BA;
 }
+/* .gallery{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    position: absolute;
+    top: -20%;
+    z-index: 1;
+} */
 
 @media (max-width:600px) {
     .section-2{

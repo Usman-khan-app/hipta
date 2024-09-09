@@ -1,20 +1,142 @@
 .footer{
     width: 100vw;
-    height: 100vh;
+    
     background-color: black;
     padding: 140px 44px;
 }
 .footer-content{
     width: 96%;
     height: 100%;
-    background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #2e2c2c;
 
 }
 .footercard{
     width: 300px;
     height: 300px;
-    background-color: blue;
+    position: relative;
+
+
+}
+.footercard h1{
+    font-size: 1.5vw;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    color: #fff;
+
+}
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_links li{
+    list-style: none;
+    margin-left: -30px;
+}
+.footer_links li a{
+    text-decoration: none;
+    color: #8c8a8a;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    transition: cubic-bezier(0.19, 1, 0.22, 1).5s;
+    font-size: 20px;
+} 
+.footer_links li a:hover{
+    color: #fff;
+}
+.conp{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+
+}
+.bigp{
+    color: #faf8f8;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    transition: cubic-bezier(0.19, 1, 0.22, 1).5s;
+    font-size: 22px;
+    font-style: italic;
+}
+.smp{
+    text-decoration: none;
+    margin-top: -10px;
+    color: #8c8a8a;
+    
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    transition: cubic-bezier(0.19, 1, 0.22, 1).5s;
+    font-size: 20px;
+    
+}
+.textp p{
+    color: #8c8a8a;
+    
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+}
+.textp textarea{
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    color: #8c8a8a;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 400;
+    transition: cubic-bezier(0.19, 1, 0.22, 1).5s;
+    font-size: 20px;
+    font-style: italic;
+    white-space: nowrap;
+
+}
+.email_icon{
+    position: absolute;
+    top: 27%;
+    right: 37%;
+}
+.email_icon a{
+    color: #fff;
+    text-decoration: none;
+}
+.copyr{
+    
+    margin-top: 30px;
+    position: relative;
+    top: 120px;
+}
+.copyr p{
+    width: 100%;
+height: 100%;
+text-align: center;
+color: #8c8a8a;
+font-family: "Mukta Mahee", sans-serif;
+font-size: 23px;
+font-weight: 200;
+
+}
+
+@media (max-width:600px) {
+    .footer{
+        padding: 10px;
+    }
+    .footer-content{
+        width: 100%;
+    }
+    .footer-content h1{
+        font-size: 23px;
+    }
+    .copyr{
+        top:30px;
+        display: flex;
+        justify-content: center;
+    }
+    .copyr p{
+        width: 70%;
+    }
 }
